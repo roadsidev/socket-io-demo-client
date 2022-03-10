@@ -7,7 +7,7 @@ public class SocketIO_Client : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        var manager = new SocketManager(new Uri("http://www.chrisbenz.dev:3000"));
+        var manager = new SocketManager(new Uri("http://chrisbenz.dev:3000"));
 
         // Accessing the root ("/") socket
         var root = manager.Socket;
